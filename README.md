@@ -4,7 +4,7 @@ A C++20 module wrapper for GLFW, exporting all contents from `glfw3.h`.
 This is just a thin wrapper—feel free to adapt the content as needed.
 
 ## Requirements  
-- C++23 (standard library modules support)  
+- C++20
 - `glfw3.h` and `vulkan.h` headers  
 
 ## Features  
@@ -13,7 +13,7 @@ This is just a thin wrapper—feel free to adapt the content as needed.
 
 ## Usage  
 
-Simply import the module in your C++23 project:  
+Simply import the module in your C++20↑ project:  
 
 ```cpp
 import std;
